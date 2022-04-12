@@ -9,9 +9,8 @@ tools for local development
 
 | Tool | Version |
 | - | - |
-| golang | 1.18.0 |
 | alpine | 3.15 |
-| [golang/golangci-lint](https://golangci-lint.run) | v1.44.2 |
+| [golang/golangci-lint](https://golangci-lint.run) | v1.45.2 |
 | [cespare/reflex](https://github.com/cespare/reflex) | v0.3.1 |
 | [go-delve/delve](https://github.com/go-delve/delve) | v1.8.2 |
 
