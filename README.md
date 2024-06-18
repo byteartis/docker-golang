@@ -1,6 +1,6 @@
 # Golang Image
 
-Wrapper around the official [Docker Go](https://hub.docker.com/_/golang) image with some extra ByteArtis dependencies for local development.
+Wrapper around the official [Docker Go](https://hub.docker.com/_/golang) image with some extra Byte Artis dependencies for local development.
 
 ## Image Details
 
