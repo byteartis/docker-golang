@@ -1,7 +1,6 @@
 # Golang Image
 
-Wrap the official [Golang](https://hub.docker.com/_/golang) image and adds several
-tools for local development
+Wrapper around the official [Docker Go](https://hub.docker.com/_/golang) image with some extra ByteArtis dependencies for local development.
 
 ## Image Details
 
@@ -9,10 +8,11 @@ tools for local development
 
 | Tool | Version |
 | - | - |
-| alpine | 3.15 |
-| [golang/golangci-lint](https://golangci-lint.run) | v1.45.2 |
+| alpine | 3.19 |
+| [golang/golangci-lint](https://github.com/golangci/golangci-lint) | v1.59.1 |
 | [cespare/reflex](https://github.com/cespare/reflex) | v0.3.1 |
-| [go-delve/delve](https://github.com/go-delve/delve) | v1.8.2 |
+| [go-delve/delve](https://github.com/go-delve/delve) | v1.22.1 |
+| [ory/go-acc](https://github.com/ory/go-acc) | v0.2.8 |
 
 ### Configurations
 
