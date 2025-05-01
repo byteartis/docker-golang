@@ -1,10 +1,8 @@
 #!/bin/bash
 
-ALPINE_VERSION=3.20
-GOLANGCI_LINT_VERSION=v1.60.3
-REFLEX_VERSION=v0.3.1
-DELVE_VERSION=v1.23.0
-GO_ACC_VERSION=v0.2.8
+ALPINE_VERSION=3.21
+GOLANGCI_LINT_VERSION=v2.1.5
+DELVE_VERSION=v1.24.2
 
 # Full image name
 FULL_NAME="byteartis/golang"
@@ -19,9 +17,7 @@ docker_build() {
         --build-arg GO_VERSION=$GO_VERSION \
         --build-arg ALPINE_VERSION=$ALPINE_VERSION \
         --build-arg GOLANGCI_LINT_VERSION=$GOLANGCI_LINT_VERSION \
-        --build-arg REFLEX_VERSION=$REFLEX_VERSION \
         --build-arg DELVE_VERSION=$DELVE_VERSION \
-        --build-arg GO_ACC_VERSION=$GO_ACC_VERSION \
         -t $FULL_NAME:latest \
         -t $FULL_NAME:alpine \
         -t $FULL_NAME:alpine$ALPINE_VERSION \
